@@ -1,6 +1,15 @@
-#include <iostream>
+#include "DoubleList.h"
+#include "AirPlay.h"
 
+/*
+ * 飞机大战
+ * 1.贴图：背景、飞机、敌机、子弹
+ * 2.实现飞机的移动：通过按下键盘上的上下左右键控制飞机的移动
+ * 3.实现子弹、敌机的生成与移动（刷新位置）
+ * 4.实现碰撞逻辑：包括子弹和敌机的碰撞、敌机和飞机的碰撞
+ * 5.实现游戏的结束判断
+ */
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
     return 0;
 }
