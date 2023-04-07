@@ -16,12 +16,12 @@ DoubleList* DoubleList_Init(){
 }
 
 //双链表节点的定义
-Node* DoubleListNode_Init(){
+Node* DoubleListNode_Init(int x,int y){
     //定义临时指针，指向新的节点
     Node* temp = (Node*)malloc(sizeof(Node));
     assert(temp);//断言：判断申请空间是否成功
-    temp->x = 0;
-    temp->y = 0;
+    temp->x = x;
+    temp->y = y;
     temp->prev = temp->pNext = nullptr;
     return temp;
 }

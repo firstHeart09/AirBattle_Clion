@@ -31,7 +31,7 @@ typedef struct DoubleList DoubleList;
 DoubleList* DoubleList_Init();
 
 //双链表节点的定义
-Node* DoubleListNode_Init();
+Node* DoubleListNode_Init(int x,int y);
 
 //双链表的插入
 void DoubleList_Insert(DoubleList*temp,Node*node);
